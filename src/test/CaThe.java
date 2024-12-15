@@ -1,8 +1,8 @@
 package test;
 
 public class CaThe {
-	int[] congViec; // Hoán vị công việc 
-    int doThichNghi; // Giá trị fitness của cá thể 
+	protected int[] congViec; // Hoán vị công việc 
+	protected  int doThichNghi; // Giá trị fitness của cá thể 
     // Phương thức khởi tạo
     public CaThe(int n) {
         congViec = new int[n];

@@ -1,10 +1,11 @@
-﻿package test;
+package test;
 import java.io.*;
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         try {
+        	
             int[][] maTranChiPhi = docFile("src/test/input4.txt"); // Đọc ma trận từ file
          GeneticAlgorithm thuatToan = new GeneticAlgorithm(maTranChiPhi, 10, 100, 0.8, 0.1);
          PhanCong ketQua = thuatToan.giaiQuyet();
@@ -35,7 +36,6 @@ public class Main {
                 maTranChiPhi[i][j] = Integer.parseInt(line[j]);
             }
         }
-
         br.close();
         return maTranChiPhi;
     }

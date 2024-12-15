@@ -2,11 +2,11 @@ package test;
 import java.util.*;
 
 public class GeneticAlgorithm {
-	 int[][] maTranChiPhi;
-	    int kichThuocQuanThe;
-	    int soTheHeToiDa;
-	    double xacSuatLaiGhep;
-	    double xacSuatDotBien;
+	private int[][] maTranChiPhi;
+	private    int kichThuocQuanThe;
+	private   int soTheHeToiDa;
+	private    double xacSuatLaiGhep;
+	private    double xacSuatDotBien;
 
 	    public GeneticAlgorithm(int[][] maTranChiPhi, int kichThuocQuanThe, int soTheHeToiDa, double xacSuatLaiGhep, double xacSuatDotBien) {
 	        this.maTranChiPhi = maTranChiPhi;
